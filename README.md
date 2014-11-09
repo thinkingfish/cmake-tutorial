@@ -1,6 +1,6 @@
-cmake-templates
+cmake-tutorial
 ===============
-This repo provides a series of mini projects, including cmake files as well as dummy sources, that target a number of typical use cases.
+This repo provides a series of mini projects to introduce core CMake features incrementally. The more complex cmake files are also useful as templates.
 
 # Project Origin and Philosophy
 There are already a number of CMake tutorials on the Internet. I read through many when I was converting my projects and learning CMake in the process. What I felt missing at the time was 2 things: 1) applicable examples for various typical project setups, especially beyond the most trivial ones; 2) introducing features in an order that makes sense to CMake novices with a real life project, who eventually want to use the build process in a rigorous way and deploy binary to production. Essentially, this project approaches build systems from the perspective of project builders- spend as little time as possible on build system while still following best practices and using good idioms.
