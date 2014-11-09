@@ -1,0 +1,5 @@
+CMakeFiles.txt is what CMake defines as a [**directory**](http://www.cmake.org/cmake/help/v3.0/manual/cmake-language.7.html#directories). This is a special filename in CMake and should not be renamed.
+
+The most basic construct in a CMake directory is [**command invocation**] http://www.cmake.org/cmake/help/v3.0/manual/cmake-language.7.html#command-invocations
+
+It is strongly encouraged to have a **build directory** separate from the rest of project, e.g. source. I've included it in the project to encourage using it. This is due to practical consideration: because CMake syntax is fairly flexible and supports almost arbitrary manipulation of the project, it is hard to track what temporary files have been generated and clean them up completely if they are mixed with source files. In this sense, CMake has s different philosophy from automake. In fact, CMake doesn't provide commands, which may be surprising to many autotools users. If one always builds in a disposable directory and points all temp files there, cleaning up becomes trivial.
