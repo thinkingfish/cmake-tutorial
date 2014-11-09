@@ -2,5 +2,5 @@
 cmake_minimum_required(VERSION 3.0)
 project(Print)
 
-# executable are added by specifying the target (first argument) and all the source files needed
+# an executable is added by specifying the target (first argument) and all the source files needed
 add_executable(print_arg print.c)
